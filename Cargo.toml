@@ -1,5 +1,5 @@
 [package]
-name = "bhb-rs"
+name = "bhb"
 version = "0.1.0"
 authors = ["erin moon <erin@hecke.rs>"]
 description = "board support crate for the Winterbloom Big Honking Button"
@@ -7,7 +7,7 @@ keywords = ["no-std", "arm", "cortex-m", "embedded-hal"]
 edition = "2018"
 
 [dependencies]
-cortex-m = "0.7.0"
+cortex-m = "0.6.2"
 embedded-hal = "0.2.4"
 nb = "1.0"
 
