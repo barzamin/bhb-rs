@@ -20,14 +20,26 @@ define_pins!(
 	/// The status LED pin
 	pin led = a17,
 
+	/// The v/oct ADC pin
+	pin a1 = b8,
+
+	/// The audio out pin
+	pin a0 = a2,
+
+	/// The gate out pin
+	pin d0 = a11,
+
+	/// The gate in pin
+	pin d2 = a14,
+
 	/// SPI MOSI for the external flash
-	pin flash_mosi = pb22,
+	pin flash_mosi = b22,
 	/// SPI MISO for the external flash
-	pin flash_miso = pb03,
+	pin flash_miso = b3,
 	/// SPI SCK for the external flash
-	pin flash_sck  = pb23,
+	pin flash_sck  = b23,
 	/// SPI chip select for the external flash
-	pin flash_cs   = pa27,
+	pin flash_cs   = a27,
 
     /// The USB D- pad
     pin usb_dm = a24,
