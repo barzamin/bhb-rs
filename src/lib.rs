@@ -10,8 +10,12 @@ pub use cortex_m_rt::entry;
 
 use hal::prelude::*;
 use hal::*;
-
 pub use hal::target_device as pac;
+pub use hal::common::*;
+pub use hal::samd21::*;
+
+use gpio::{Floating, Input, Port};
+use hal::clock::GenericClockController;
 
 define_pins!(
 	struct Pins,
